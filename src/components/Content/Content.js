@@ -1,11 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import HomePage from "../../scenes/HomePage/HomePage";
+
 class Content extends Component {
-  state = {  }
+  state = {};
   render() {
     return (
-      <div></div>
-     );
+      <div>
+        <HomePage></HomePage>
+      </div>
+    );
   }
 }
-
 export default Content;

@@ -3,10 +3,12 @@ class HomePage extends Component {
   state = {  }
   render() {
     return (
-      <div>
-        <h2>This is content of homepage</h2>
+      <div className="homepage">
+        <div className="container">
+          <h2>This is content of homepage</h2>
+        </div>
       </div>
-     );
+    );
   }
 }
 
