@@ -1,12 +1,24 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import "./Header.scss";
 class Header extends Component {
-  state = {  }
+  state = {};
   render() {
     return (
-    <div>
-      <h2>This is just a header</h2>
-    </div>
-  );
+      <nav className="">
+        <div className="header">
+          <div className="container">
+            <div className="header__brand">
+              <a className="navbar-brand">Storybook</a>
+            </div>
+            <div className="header__content">
+              <div className="collapse navbar-collapse">
+                <div className="navbar-nav"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    );
   }
 }
 
