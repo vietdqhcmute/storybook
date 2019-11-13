@@ -6,12 +6,14 @@ class Header extends Component {
     return (
       <nav className="">
         <div className="header">
-          <div className="header__brand">
-            <a className="navbar-brand"></a>
-          </div>
-          <div className="header__content">
-            <div className="collapse navbar-collapse">
-              <div className="navbar-nav"></div>
+          <div className="container">
+            <div className="header__brand">
+              <a className="navbar-brand">Storybook</a>
+            </div>
+            <div className="header__content">
+              <div className="collapse navbar-collapse">
+                <div className="navbar-nav"></div>
+              </div>
             </div>
           </div>
         </div>
