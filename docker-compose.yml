@@ -1,7 +1,7 @@
 version: '2.2'
 services:
-  sample:
-    container_name: storybook
+  react:
+    container_name: storybook_frontend
     build:
       context: .
       dockerfile: Dockerfile
